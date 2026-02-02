@@ -1,0 +1,22 @@
+Initial commit: Προσθήκη wp_manager.py, README.md και .gitignore
+Add virtual environment setup instructions to README.md
+Add requirements.txt with requests library
+Fetch and display latest 3 posts from local WordPress API
+Fetch and display latest 3 posts from local WordPress API
+Add MIT license, business model and transparency explanation
+Ignore venv/, __pycache__, .DS_Store and other temporary files
+Finalize project structure and README for public repository
+
+
+### Περιγραφή
+Να προστεθεί δυνατότητα διαγραφής άρθρου μέσω του WordPress REST API με χρήση authentication (Basic Auth ή Application Password).
+
+### Σκοπός
+- Να μπορεί ο χρήστης να διαγράφει άρθρα απευθείας από το CLI.
+- Να διατηρηθεί η ανοικτή φιλοσοφία του εργαλείου με ασφαλή authentication.
+
+### Στάδια Υλοποίησης
+1. Προσθήκη παραμέτρων CLI για επιλογή "delete post".
+2. Σύνδεση με το API χρησιμοποιώντας authentication.
+3. Επιβεβαίωση πριν τη διαγραφή για ασφαλή χρήση.
+4. Ενημέρωση README με οδηγίες χρήσης.
