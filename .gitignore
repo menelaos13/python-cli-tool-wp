@@ -1,0 +1,11 @@
+# Εικονικό περιβάλλον
+venv/
+ENV/
+
+# Προσωρινά αρχεία Python
+__pycache__/
+*.py[cod]
+
+# Αρχεία συστήματος
+.DS_Store
+Thumbs.db
